@@ -2,7 +2,6 @@ apiVersion: postgres-operator.crunchydata.com/v1beta1
 kind: PostgresCluster
 metadata:
   name: pg
-  namespace: shared
 spec:
   image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres:ubi8-13.8-1
   postgresVersion: 13
